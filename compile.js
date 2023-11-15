@@ -36,3 +36,5 @@ fs.writeFileSync(path.join(outputDir, 'EcommerceBytecode.json'), bytecode, 'utf8
 fs.writeFileSync(path.join(outputDir, 'EcommerceABI.json'), JSON.stringify(abi), 'utf8');
 
 console.log('Contract compiled successfully.'); 
+
+module.exports = { abi, bytecode };
