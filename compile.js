@@ -35,4 +35,4 @@ const abi = compiledContract.contracts[contractPath][contractName].abi;
 fs.writeFileSync(path.join(outputDir, 'EcommerceBytecode.json'), bytecode, 'utf8'); // No need to stringify bytecode
 fs.writeFileSync(path.join(outputDir, 'EcommerceABI.json'), JSON.stringify(abi), 'utf8');
 
-console.log('Contract compiled successfully.');
+console.log('Contract compiled successfully.'); 
